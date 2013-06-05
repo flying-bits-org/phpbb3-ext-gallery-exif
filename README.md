@@ -14,8 +14,7 @@ Add to database by inserting a row into phpbb_ext
 
     INSERT INTO phpbb_ext (ext_name, ext_active, ext_state) VALUES ('gallery/exif', 0, '');
 
-Go to ACP > Customise > Extensions
-And enable the extension.
+Go to "ACP" > "Customise" > "Extensions" and enable the "phpBB Gallery Exif Extension" extension.
 
 ##Tests and Continuous Intergration
 
