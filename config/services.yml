@@ -1,0 +1,10 @@
+imports:
+#    - { resource: parameters.yml }
+
+services:
+    gallery.exif.manager:
+        class: phpbb_ext_gallery_exif_manager
+        arguments:
+            - @dbal.conn
+            - @template
+            - @user
