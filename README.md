@@ -8,7 +8,7 @@ This extension requires gallery/core to be installed.
 
 Clone into phpBB/ext/gallery/exif:
 
-    git clone https://github.com/nickvergessen/phpbb3-ext-gallery-core.git phpBB/ext/gallery/exif
+    git clone https://github.com/nickvergessen/phpbb3-ext-gallery-exif.git phpBB/ext/gallery/exif
 
 Add to database by inserting a row into phpbb_ext
 
