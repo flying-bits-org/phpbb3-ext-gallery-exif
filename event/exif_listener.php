@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 */
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
-class phpbb_ext_gallery_exif_manager_event_exif_listener implements EventSubscriberInterface
+class phpbb_ext_gallery_exif_event_exif_listener implements EventSubscriberInterface
 {
 	static public function getSubscribedEvents()
 	{
